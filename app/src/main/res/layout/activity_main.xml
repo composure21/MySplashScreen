@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/helloTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="130dp"
+        android:text="Hello World!"
+        android:textSize="60dp" />
+
+        <Button
+            android:id="@+id/englishButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="English"
+            android:onClick="changeLanguage"/>
+
+        <Button
+            android:id="@+id/spanishButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Spanish"
+            android:onClick="changeLanguage" />
+
+        <Button
+            android:id="@+id/frenchButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="French"
+            android:onClick="changeLanguage" />
+
+    <Button
+        android:id="@+id/germanButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="changeLanguage"
+        android:text="German" />
+
+    <Button
+        android:id="@+id/italianButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="changeLanguage"
+        android:text="Italian" />
+
+</LinearLayout>
